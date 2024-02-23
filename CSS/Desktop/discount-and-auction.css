@@ -1,0 +1,117 @@
+.discount__and__auction {
+  width: 100%;
+  height: 820px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .discount__and__auction__center {
+    width: 100%;
+    max-width: 1336px;
+    height: inherit;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    .discount__and__auction__center__first {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10px;
+      .discount__title {
+        font-family: var(--RYekan);
+        font-size: var(--title);
+        font-weight: normal;
+      }
+    }
+    .discount__and__auction__center__second {
+      width: 1310px;
+      height: 90%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      .discount__and__auction__item {
+        width: calc(100% / 6);
+        height: calc(100% / 3);
+        text-decoration: none;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        border-left: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        padding: 12px 8px 12px 8px;
+        & img {
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+        }
+        .discount__auction__price {
+          width: 100%;
+          height: fit-content;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-between;
+          align-items: center;
+          .discount__auction__price__discount {
+            font-family: var(--BYekan);
+            font-weight: bold;
+            color: white;
+            background-color: #d32f2f;
+            padding: 0px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            letter-spacing: 1px;
+          }
+          & div {
+            width: fit-content;
+            height: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+            column-gap: 5px;
+            .discount__auction__price__new__price {
+              font-family: var(--BYekan);
+              font-weight: bold;
+              font-size: 15px;
+              color: black;
+              opacity: 0.8;
+            }
+            & span {
+              margin-top: 8px;
+              & svg {
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
+        .discount__auction__price__real__price {
+          width: 80%;
+          height: fit-content;
+          & p {
+            font-family: var(--BYekan);
+            font-weight: bold;
+            font-size: 13px;
+            direction: ltr;
+            text-decoration: line-through;
+            color: black;
+            opacity: 0.5;
+          }
+        }
+      }
+      .no__bb {
+        border-bottom: none;
+      }
+      .no__lb {
+        border-left: none;
+      }
+    }
+  }
+}

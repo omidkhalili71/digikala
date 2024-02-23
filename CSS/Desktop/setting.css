@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    direction: rtl;
+}
+:root{
+    --width100: 100%;
+    --Yekan: Yekan;
+    --BYekan: BYekan;
+    --RYekan: RYekan;
+    --border: #e0e0e2;
+    --title: 20px;
+}
+@font-face {
+    font-family: BYekan;
+    src: url(../../Fonts/yekan-bold/BYekan.eot);
+    src: url(../../Fonts/yekan-bold/BYekan.ttf);
+    src: url(../../Fonts/yekan-bold/BYekan.woff2);
+    src: url(../../Fonts/yekan-bold/BYekan.woff);
+}
+@font-face {
+    font-family: Yekan;
+    src: url(../../Fonts/IRANYekanWeb.eot);
+    src: url(../../Fonts/IRANYekanWeb.ttf);
+    src: url(../../Fonts/IRANYekanWeb.woff2);
+    src: url(../../Fonts/IRANYekanWeb.woff);
+}
+@font-face {
+    font-family: RYekan;
+    src: url(../../Fonts/Regular/IRANYekanWeb.eot);
+    src: url(../../Fonts/Regular/IRANYekanWeb.ttf);
+    src: url(../../Fonts/Regular/IRANYekanWeb.woff);
+    src: url(../../Fonts/Regular/IRANYekanWeb.woff2);
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

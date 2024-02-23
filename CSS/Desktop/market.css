@@ -1,0 +1,49 @@
+.market {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  .market__center {
+    width: 100%;
+    height: inherit;
+    max-width: 1336px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    & div {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      & a {
+        text-decoration: none;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      & img {
+        width: 52px;
+        height: 52px;
+        margin: 8px;
+      }
+      & h5,
+      a {
+        font-size: 11px;
+        font-family: var(--Yekan);
+        opacity: 0.9;
+        color: black;
+      }
+      .more {
+        width: 52px;
+        height: 52px;
+        border-radius: 52px;
+        background-color: #f0f0f1;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin: 8px;
+      }
+    }
+  }
+}

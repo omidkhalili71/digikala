@@ -1,0 +1,30 @@
+.offer__banner {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .offer__banner__center {
+    width: 100%;
+    max-width: 1336px;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+    .banner__1 {
+      width: 320px;
+      height: 240px;
+      & a {
+        width: inherit;
+        height: inherit;
+        & img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+      }
+    }
+  }
+}
