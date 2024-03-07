@@ -1,0 +1,31 @@
+.amazing__page__offer {
+    width: 100%;
+    height: 465px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .amazing__page__offer__center {
+        width: 100%;
+        max-width: 1644px;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        .amazing__page__offer__banner {
+            width: inherit;
+            height: 65px;
+            background-image: url(../../../Images/amazing-page/amazing-slider/header.svg), linear-gradient(180deg, #ef4056, #ef394e);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+        }
+        .amazing__page__offer__slider {
+            width: inherit;
+            height: 400px;
+            display: flex;
+        }
+    }
+}
